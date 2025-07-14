@@ -1,0 +1,6 @@
+In order to make the virtual environment see the system-site package do the following
+
+```
+python -m venv --system-site-packages venv
+source venv/bin/activate
+```
